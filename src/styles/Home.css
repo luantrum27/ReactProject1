@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.home-wrapper-dark {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.home-wrapper-light {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+}
+
+.home-image--block {
+    width: 30%;
+    position: relative;
+    margin-top: 90px;
+}
+
+.home-image--block img {
+    width: 100%;
+    border-radius: 30px;
+}
+
+.home-desc {
+    width: 40%; 
+}
+
+.home-desc--name {
+    color: #FFB400;
+    font-size: 48px;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+.home-desc--job-dark {
+    text-align: center;
+    color: #fff;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.home-desc--job-light {
+    text-align: center;
+    color: #666666;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.home-desc--content-dark {
+    color: #fff;
+    margin-top: 30px;
+    font-size: 18px;
+    line-height: 2;
+    margin-bottom: 50px;
+}
+
+.home-desc--content-light {
+    color: #666666;
+    margin-top: 30px;
+    font-size: 18px;
+    line-height: 2;
+    margin-bottom: 50px;
+}
+
+.home-button {
+    width: 175px;
+    height: 50px;
+    border: 2px solid #FFB400;
+    border-radius: 50px;
+    text-align: center;
+    transition: all ease-in-out 0.5s;
+    cursor: pointer;
+}
+
+.home-button p {
+    margin-top: 15px;
+    color: #FFB400;
+    transition: all ease-in-out 0.5s;
+}
+
+.home-button:hover {
+    background-color: #FFB400;
+    transition: all ease-in-out 0.5s;
+}
+
+.home-button:hover p {
+    color: #fff;
+    transition: all ease-in-out 0.5s;
+}
+
+.home-block {
+    position: fixed;
+    top: 0;
+    width: 335px;
+    bottom: 0;
+    background-color: #FFB400;
+    left: 0;
+}
